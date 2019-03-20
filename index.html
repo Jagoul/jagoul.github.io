@@ -1,1 +1,858 @@
-Hello World
+<!--template source: https://github.com/jagoul.github.io-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christoph Feichtenhofer</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+  <style type="text/css"></style>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58616069-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="header" class="bg2"> </div>
+
+  <div id="headerblob">
+
+    <img src="./img/christoph.jpg" class="img-circle imgme"  width="130px">
+
+    <div id="headertext">
+      <div id="htname" style="color:white">Raed Abdel Sater</div>
+      <div id="htdesc" style="color:white">Data Scientist</div>
+	  <div id="htdesc" style="color:white">Canadian National Railway / Concordia University</div>
+      <div id="htem" style="color:white">raed.abdelsater _at_ mail.concordia.ca</div>
+	</div>
+      <div id="icons">
+        <div class="svgico">
+          <a href="https://github.com/jagoul"><img src="./img/octocat.svg" width="48px"></a>
+		</div>
+	   <div class="svgico">
+          <a href="http://linkedin.com/in/christoph-feichtenhofer-549433a1"><img src="./img/linkedin.svg" width="48px"></a>
+        </div>
+        <div class="svgico">
+          <a href="http://scholar.google.com/citations?user=UxuqG1EAAAAJ"><img src="./img/gscholar.svg" width="48px"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<br><br>
+
+<div class="container quote">
+  <h3>Research Statement</h3>
+
+  <blockquote>
+<p class="text-left">My research interests are in the fields of computer vision and machine learning, with a focus on learning effective video representations for dynamic scene understanding. In particular, I plan to explore computational theories that represent spatiotemporal visual information, within a confluence of machine vision and learning. I aim to find efficient solutions for problems that are grounded in applications such as recognition and detection from video. </p>
+  </blockquote>
+</div>
+
+<div class="container quote2">
+  <h3>Recent technical reports</h3>
+</div>
+
+<div class="container">
+  <div id="pubs">
+
+<div class="pubwrap">
+  <div class="row">
+    <div class="col-md-6">
+       <div class="pubimg">
+        <img src="pubs/slowfast_concept.gif"><br><br>
+        <img src="pubs/slowfast_output.gif"><br><br>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="pub">
+        <div class="pubt">SlowFast Networks for Video Recognition</div>
+        <div class="puba"><b>Christoph Feichtenhofer</b>, Haoqi Fan, Jitendra Malik, Kaiming He</div>
+              <div class="pubv">Technical report, arXiv, December 2018</div>
+         <div class="pubd"> We present SlowFast networks for video recognition. Our model involves (i) a Slow pathway, operating at low frame rate, to capture spatial semantics, and (ii) a Fast pathway, operating at high frame rate, to capture motion at fine temporal resolution. The Fast pathway can be made very lightweight by reducing its channel capacity, yet can learn useful temporal information for video recognition. Our models achieve strong performance for both action classification and detection in video, and large improvements are pin-pointed as contributions by our SlowFast concept. We report 79.0% accuracy on the Kinetics dataset without using any pre-training, largely surpassing the previous best results of this kind. On AVA action detection we achieve a new state-of-the-art of 28.3 mAP.  </div>
+        <div class="publ">
+          <ul>
+                 <li><a href="https://arxiv.org/abs/1812.03982">arXiv</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pubwrap">
+  <div class="row">
+    <div class="col-md-6">
+       <div class="pubimg">
+        <img src="pubs/lfb_concept.png"><br><br>
+        <img src="pubs/lfb_output.png"><br><br>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="pub">
+        <div class="pubt">Long-Term Feature Banks for Detailed Video Understanding</div>
+        <div class="puba">Chao-Yuan Wu, <b>Christoph Feichtenhofer</b>, Haoqi Fan, Kaiming He, Philipp Krähenbühl, Ross Girshick</div>
+              <div class="pubv">Technical report, arXiv, December 2018</div>
+         <div class="pubd"> 	To understand the world, we humans constantly need to relate the present to the past, and put events in context. In this paper, we enable existing video models to do the same. We propose a long-term feature bank---supportive information extracted over the entire span of a video---to augment state-of-the-art video models that otherwise would only view short clips of 2-5 seconds. Our experiments demonstrate that augmenting 3D convolutional networks with a long-term feature bank yields state-of-the-art results on three challenging video datasets: AVA, EPIC-Kitchens, and Charades. </div>
+        <div class="publ">
+          <ul>
+                 <li><a href="https://arxiv.org/abs/1812.05038">arXiv</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pubwrap">
+    <div class="row">
+      <div class="col-md-6">
+     <div class="pubimg">
+    <img src="pubs/grounded_concept.gif"><br><br>
+    <img src="pubs/grounded_output.png"><br><br>
+    <img src="pubs/grounded_legend.png"><br><br>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="pub">
+          <div class="pubt">Grounded Human-Object Interaction Hotspots from Video</div>
+          <div class="puba">Tushar Nagarajan, <b>Christoph Feichtenhofer</b>, Kristen Grauman</div>
+                <div class="pubv">Technical report, arXiv, December 2018</div>
+           <div class="pubd"> 	Learning how to interact with objects is an important step towards embodied visual intelligence, but existing techniques suffer from heavy supervision or sensing requirements. We propose an approach to learn human-object interaction "hotspots" directly from video. Rather than treat affordances as a manually supervised semantic segmentation task, our approach learns about interactions by watching videos of real human behavior and recognizing afforded actions. Given a novel image or video, our model infers a spatial hotspot map indicating how an object would be manipulated in a potential interaction -- even if the object is currently at rest. Through results with both first and third person video, we show the value of grounding affordance maps in real human-object interactions. Not only are our weakly supervised grounded hotspots competitive with strongly supervised affordance methods, but they can also anticipate object function for novel objects and enhance object recognition.
+          </div>
+          <div class="publ">
+            <ul>
+                   <li><a href="https://arxiv.org/abs/1812.04558">arXiv</a></li>
+                   <li><a href="http://vision.cs.utexas.edu/projects/interaction-hotspots/">website</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pubwrap">
+    <div class="row">
+      <div class="col-md-6">
+         <div class="pubimg">
+          <img src="pubs/dimofs_concept.png"><br><br>
+          <img src="pubs/dimofs_output.png"><br><br>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="pub">
+          <div class="pubt">Learning Discriminative Motion Features Through Detection</div>
+          <div class="puba">Gedas Bertasius, <b>Christoph Feichtenhofer</b>, Du Tran, Jianbo Shi, Lorenzo Torresani</div>
+                <div class="pubv">Technical report, arXiv, December 2018</div>
+           <div class="pubd"> Despite huge success in the image domain, modern detection models such as Faster R-CNN have not been used nearly as much for video analysis. This is arguably due to the fact that detection models are designed to operate on single frames and as a result do not have a mechanism for learning motion representations directly from video. We propose a learning procedure that allows detection models such as Faster R-CNN to learn motion features directly from the RGB video data while being optimized with respect to a pose estimation task. In our experiments we show that our training scheme helps learn effective motion cues, which can be used to estimate and localize salient human motion. Furthermore, we demonstrate that as a byproduct, our model also learns features that lead to improved pose detection in still-images, and better keypoint tracking. Finally, we show how to leverage our learned model for the tasks of spatiotemporal action localization and fine-grained action recognition.
+           </div>
+          <div class="publ">
+            <ul>
+                   <li><a href="https://arxiv.org/abs/1812.04172">arXiv</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pubwrap">
+  <div class="row">
+    <div class="col-md-6">
+       <div class="pubimg">
+        <img src="pubs/vid_pose_concept.gif"><br><br>
+        <img src="pubs/vid_pose_output.gif"><br><br>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="pub">
+        <div class="pubt">3D human pose estimation in video with temporal convolutions and semi-supervised training</div>
+        <div class="puba">Dario Pavllo, <b>Christoph Feichtenhofer</b>, David Grangier, Michael Auli</div>
+              <div class="pubv">Technical report, arXiv, November 2018</div>
+         <div class="pubd"> 	In this work, we demonstrate that 3D poses in video can be effectively estimated with a fully convolutional model based on dilated temporal convolutions over 2D keypoints. We also introduce back-projection, a simple and effective semi-supervised training method that leverages unlabeled video data. We start with predicted 2D keypoints for unlabeled video, then estimate 3D poses and finally back-project to the input 2D keypoints. In the supervised setting, our fully-convolutional model outperforms the previous best result from the literature by 6 mm mean per-joint position error on Human3.6M, corresponding to an error reduction of 11%, and the model also shows significant improvements on HumanEva-I. Moreover, experiments with back-projection show that it comfortably outperforms previous state-of-the-art results in semi-supervised settings where labeled data is scarce.
+        </div>
+        <div class="publ">
+          <ul>
+                 <li><a href="https://arxiv.org/abs/1811.11742">arXiv</a></li>
+                 <li><a href="https://github.com/facebookresearch/VideoPose3D">code</a></li>
+                 <li><a href="https://dariopavllo.github.io/VideoPose3D/">website</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container quote2">
+  <h3>Timeline</h3>
+</div>
+
+<div class="container">
+  <div id="timeline">
+
+
+    <div class="timelineitem">
+      <div class="tdate"> 2018 - </div>
+      <div class="ttitle">Research Scientist at Facebook  </div>
+	  <div class="tdesc">Facebook AI Research (<a href="https://research.fb.com/category/facebook-ai-research-fair/">FAIR</a>), Menlo Park, CA, USA </div>
+    </div>
+	<div class="timelineitem">
+      <div class="tdate">2013 - 2018</div>
+      <div class="ttitle">University Assistant at Graz University of Technology</div>
+	  <div class="tdesc"> Institute of Electrical Measurement and Measurement Signal Processing (<a href="https://www.tugraz.at/en/institutes/emt/home/">EMT</a>), Graz, Austria <span class="thigh"> </span> </div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2015 - 2017</div>
+      <div class="ttitle">Visiting Researcher at University of Oxford </div>
+	  <div class="tdesc"> Worked with <span class="thigh">Prof. Andrew Zisserman</span> </div>
+	  <div class="tdesc">  Visual Geometry Group (<a href="http://www.robots.ox.ac.uk/~vgg/">VGG</a>), Oxford, UK</div>
+    </div>
+	<div class="timelineitem">
+      <div class="tdate">2014 - 2017</div>
+      <div class="ttitle">Visiting Researcher at York University </div>
+	  <div class="tdesc"> Worked with <span class="thigh">Prof. Richard P. Wildes </span> </div>
+	  <div class="tdesc"> YorkU <a href="http://vision.eecs.yorku.ca/main/">Vision Lab</a>, Toronto, Canada</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2014 - 2017</div>
+      <div class="ttitle">Graz University of Technology: PhD</div>
+      <div class="tdesc">Thesis: <span class="thigh">Deep Learning for Video Recognition</span></div>
+    </div>
+	<div class="timelineitem">
+      <div class="tdate">2012 - 2013</div>
+      <div class="ttitle">Graz University of Technology: MSc </div>
+      <div class="tdesc">Thesis: <span class="thigh"><a href="pubs/Feichtenhofer_MScThesis_5Nov13.pdf">Dynamic Scene Recognition with Oriented Spacetime Energies</a> </span></div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2013</div>
+	  <div class="ttitle">Visiting Researcher at York University </div>
+	  <div class="tdesc"> Worked with <span class="thigh">Prof. Richard P. Wildes </span> </div>
+	  <div class="tdesc"> YorkU <a href="http://vision.eecs.yorku.ca/main/">Vision Lab</a>, Toronto, Canada</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2008 - 2011
+      </div>
+      <div class="ttitle">Graz University of Technology: BSc </div>
+      <div class="tdesc">Thesis: <span class="thigh"><a href="pubs/BSc_thesis_feichtenhofer_sharpness_10-2011.pdf">No-Reference Sharpness Metric based on Local Gradient Analysis</a> </span></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h2>News & Highlights </h2>
+  <div class="pubwrap">
+    <div class="ttitle"> We organized a tutorial on  <a href="https://gkioxari.github.io/Tutorials/eccv2018/index.html">Visual Recognition at ECCV 2018</a> </div>
+  </div>
+  <div class="pubwrap">
+    <div class="ttitle"> Invited talk at the <a href="https://bivu2018.github.io/">CVPR'18 Workshop on Brave New Ideas for Video Understanding</a> </div>
+  </div>
+  <div class="pubwrap">
+  	<div class="ttitle">Best Student Paper Award at the <a href="http://cmp.felk.cvut.cz/cvww2018/index.html"> Computer Vision Winter Workshop, (CVWW) 2018 </a> </div>
+	<div class="tdesc">"Camera-based vehicle velocity estimation from monocular video",  <span class="thigh"> Moritz Kampelmuehler, Michael Mueller, and Christoph Feichtenhofer </span>	</div>
+   <div class="pubwrap">
+	<div class="tdesc"></div>
+  </div>
+  <div class="ttitle">Our work on video object detection made it into the <a href="http://www.rsipvision.com/ComputerVisionNews-2017November/#22">  BEST OF ICCV </a> of Computer Vision News</div>
+   <div class="pubwrap">
+	<div class="tdesc">"Detect to Track and Track to Detect" - <a href="http://www.rsipvision.com/ComputerVisionNews-2017November/#22"> article</a>, <a href="http://www.robots.ox.ac.uk/~vgg/research/detect-track/">website</a> and <a href="https://www.youtube.com/watch?v=m9GarFWuVwk">talk</a></div>
+  </div>
+  <div class="ttitle">Award of Excellence granted by the Federal Ministry for Science and Research for an outstanding doctoral thesis</div>
+   <div class="pubwrap">
+	<div class="tdesc">"Deep Learning for Video Recognition" </div>
+  </div>
+  <div class="pubwrap">
+    <div class="ttitle">Invited talk at the <a href="https://sites.google.com/view/fvt2017/">Workshop on Frontiers of Video Technology - 2017</a> </div>
+	<div class="tdesc">"What have we learned from deep representations for action recognition?" - slides: <a href="pubs/Feichtenhofer_Actions_FVT_2017.pdf"> pdf </a>  or <a href="https://1drv.ms/v/s!AnKHschO7aEztMcFjQkCdyYHXq0IUA">mp4 video</a> </div>
+  </div>
+  <div class="pubwrap">
+    <div class="ttitle">Winner of the <a href="http://benchmark.tusimple.ai/#/t/2">Velocity Estimation Challenge</a> at the <a href="http://cvpr2017.tusimple.ai/index.html"> Autonomous Driving Challenge, CVPR 2017 </a>  </div>
+	<div class="tdesc">"Camera-based Vehicle Velocity Estimation using Spatiotemporal Depth and Motion Features" - slides: <a href="pubs/Feichtenhofer_AutonomousDrivingChallenge_Talk_CVPR17.pdf"> pdf </a>  or <a href="https://1drv.ms/v/s!AnKHschO7aEztMcGa_1UdFWBJbW2dA">mp4 video</a>	</div>
+	<div class="tdesc"> <span class="thigh"> Moritz Kampelmuehler, Michael Mueller, and Christoph Feichtenhofer </span></div>
+  </div>
+  <div class="pubwrap">
+	<div class="ttitle">Best Presentation Award at the <a href="http://svg.dmi.unict.it/icvss2016/index.html"> International Computer Vision Summer School 2016 </a>  </div>
+	<div class="tdesc">"Convolutional Two-Stream Network Fusion for Video Action Recognition" </div>
+  </div>
+  <div class="pubwrap">
+	<div class="ttitle">Doctoral Fellowship of the  <a href="https://www.oeaw.ac.at/en/austrian-academy-of-sciences/"> Austrian Academy of Sciences </a> granted by the Federal Ministry for Science and Research  </div>
+	<div class="tdesc">"Space-Time Representations for Dynamic Scene Understanding" </div>
+  </div>
+  <div class="pubwrap">
+	<div class="ttitle">Received two <a href="https://developer.nvidia.com/academic_gpu_seeding">Nvidia Academic Hardware Donations  </a>  for research in  </div>
+	<div class="tdesc">"Deep Convolutional Representations for Spatiotemporal Image Understanding" </div>
+  </div>
+  <!-- <div class="pubwrap"> -->
+	<div class="ttitle">Best Poster Award at the <a href="http://sunw.csail.mit.edu/2014/posters.html"> Scene Understanding Workshop, CVPR 2014 </a> </div>
+	<div class="tdesc">"Bags of Spacetime Energies for Dynamic Scene Recognition" </div>
+  <!-- </div> -->
+</div>
+
+<hr class="soft">
+
+<div class="container">
+  <h2>Publications</h2>
+  <div id="pubs">
+
+
+	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg" style="line-height: 50%;">
+			<img src="pubs/action_vis_architecture.png"><br><br>
+			<img src="pubs/action_vis/conv3_3-mosaic-f1-25.jpg">
+			<img src="pubs/action_vis/conv3_3-mosaic-f1-25-flow_mag_Slow.gif">
+			<img src="pubs/action_vis/conv3_3-mosaic-f1-25-flow_mag_Fast.gif"><br><br>
+			<img src="pubs/action_vis/conv4_3-mosaic-f1-25.jpg">
+			<img src="pubs/action_vis/conv4_3-mosaic-f1-25-flow_mag_Slow.gif">
+			<img src="pubs/action_vis/conv4_3-mosaic-f1-25-flow_mag_Fast.gif"><br><br>
+			<img src="pubs/action_vis/conv5_2-mosaic-f1-16_rgb.jpg">
+			<img src="pubs/action_vis/conv5_2-mosaic-f1-16-flow_mag_Slow.gif">
+			<img src="pubs/action_vis/conv5_2-mosaic-f1-16-flow_mag_Fast.gif">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">What have we learned from deep representations for action recognition?</div>
+			<div class="puba"><b><b>Christoph Feichtenhofer</b></b>, Axel Pinz, Richard P. Wildes, Andrew Zisserman</div>
+            <div class="pubv">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018</div>
+			 <div class="pubd">As the success of deep models has led to their deployment in all areas of computer vision, it is increasingly important to understand how these representations work and what they are capturing. In this paper, we shed light on deep spatiotemporal representations by visualizing what two-stream models have learned in order to recognize actions in video. We show that local detectors for appearance and motion objects arise to form distributed representations for recognizing human actions. Key observations include the following. First, cross-stream fusion enables the learning of true spatiotemporal features rather than simply separate appearance and motion features. Second, the networks can learn local representations that are highly class specific, but also generic representations that can serve a range of classes. Third, throughout the hierarchy of the network, features become more abstract and show increasing invariance to aspects of the data that are unimportant to desired distinctions (e.g. motion patterns across various speeds). Fourth, visualizations can be used not only to shed light on learned representations, but also to reveal idiosyncracies of training data and to explain failure cases of the system.
+			</div>
+
+            <div class="publ">
+              <ul>
+				<li><a href="pubs/Feichtenhofer_Action_Visualization_2018.pdf" download>paper</a></li>
+				<li><a href="action_vis.pdf" download>appendix</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+		   <div class="pubimg">
+			<img src="pubs/vel_est_overall_architecture.png"><br><br>
+			<img src="pubs/vel_est_sample.jpg"><br><br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Camera-based vehicle velocity estimation from monocular video</div>
+			<div class="puba">Moritz Kampelmühler, Michael G. Müller, <b>Christoph Feichtenhofer</b></div>
+            <div class="pubv">Computer Vision Winter Workshop (CVWW), 2018</div>
+			 <div class="pubd"> 	This paper documents the winning entry at
+									the CVPR2017 vehicle velocity estimation challenge.
+									Velocity estimation is an emerging task in autonomous
+									driving which has not yet been thoroughly
+									explored. The goal is to estimate the relative velocity
+									of a specific vehicle from a sequence of images. In
+									this paper, we present a light-weight approach for directly
+									regressing vehicle velocities from their trajectories
+									using a multilayer perceptron. Another contribution
+									is an explorative study of features for monocular
+									vehicle velocity estimation. We find that lightweight
+									trajectory based features outperform depth
+									and motion cues extracted from deep ConvNets, especially
+									for far-distance predictions where current disparity
+									and optical flow estimators are challenged significantly.
+									Our light-weight approach is real-time capable
+									on a single CPU and outperforms all competing
+									entries in the velocity estimation challenge. On
+									the test set, we report an average error of 1.12 m/s
+									which is comparable to a (ground-truth) system that
+									combines LiDAR and radar techniques to achieve an
+									error of around 0.71 m/s.
+			</div>
+
+            <div class="publ">
+              <ul>
+				<li><a href="https://arxiv.org/pdf/1802.07094.pdf">paper</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+			<img src="pubs/DT_architecture.png"><br><br>
+			<img src="pubs/DTfeatures.jpg"><br><br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Detect to Track and Track to Detect</div>
+			<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Andrew Zisserman</div>
+            <div class="pubv">IEEE International Conference on Computer Vision (ICCV) 2017 (spotlight)</div>
+			 <div class="pubd">Recent approaches for high accuracy detection and tracking of object
+					categories in video consist
+					of complex multistage solutions that become more cumbersome each
+					year.  In this paper we propose a ConvNet architecture that jointly
+					performs detection and tracking, solving the task in a simple and
+					effective way.
+
+					Our contributions are threefold: (i) we set up a ConvNet architecture for simultaneous detection and tracking, using a multi-task objective for frame-based object detection and across-frame track regression; (ii) we introduce novel correlation features that represent object co-occurrences across time to aid the ConvNet during tracking;  (iii) we link the frame level detections based on our across-frame tracklets to produce high accuracy detections
+					at the video level. Our ConvNet architecture for spatiotemporal
+					object detection is evaluated on the large-scale ImageNet VID dataset
+					where it achieves state-of-the-art results. Our approach provides
+					better single model performance than the winning method of the last
+					ImageNet challenge while being conceptually much simpler. Finally, we
+					show that by increasing the temporal stride we can dramatically
+					increase the tracker speed.
+			</div>
+
+            <div class="publ">
+              <ul>
+				<li><a href="pubs/DT_iccv17.pdf">paper</a></li>
+                <li><a href="https://github.com/feichtenhofer/Detect-Track">code</a></li>
+				<li><a href="#" onClick="DT_Detections=window.open('pubs/DT_detections.mp4','DT_Detections','toolbar=no, location=no, directories=no,status=no, menubar=no,scrollbars=no, resizable=true, width=900, height=600'); return false;">video</a></li>
+				<li><a href="http://www.robots.ox.ac.uk/~vgg/research/detect-track/">website</a></li>
+				<li><a href="https://www.youtube.com/watch?v=m9GarFWuVwk">talk</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+   	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+		    <img src="pubs/cvpr17_multiplier.jpg"><br><br>
+			<img src="pubs/gradient_mul.png" style="width: 49% ">
+			<img src="pubs/temporal_conv.png" style="width: 49% ">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Spatiotemporal Multiplier Networks for Video Action Recognition</div>
+			<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Richard P. Wildes</div>
+            <div class="pubv">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017 </div>
+			 <div class="pubd">This paper presents a general ConvNet architecture for video action recognition based on multiplicative interactions of spacetime features. Our model combines the appearance and motion pathways of a two-stream architecture by motion gating and is trained end-to-end. We theoretically motivate multiplicative gating functions for residual networks and empirically study their effect on classification accuracy. To capture long-term dependencies we inject  identity mapping kernels for learning temporal relationships. Our architecture is fully convolutional in spacetime and able to evaluate a video in a single forward pass. Empirical investigation reveals that our model produces state-of-the-art results on two standard action recognition datasets.
+			</div>
+
+            <div class="publ">
+              <ul>
+				<li><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Feichtenhofer_Spatiotemporal_Multiplier_Networks_CVPR_2017_paper.pdf">paper</a></li>
+                <li><a href="https://github.com/feichtenhofer/st-resnet">code</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+
+
+	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+		    <img src="pubs/cvpr17_tres.jpg"><br><br>
+			<img src="pubs/cvpr17_scenes.jpg"><br><br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Temporal Residual Networks for Dynamic Scene Recognition</div>
+			<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Richard P. Wildes</div>
+            <div class="pubv">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017 </div>
+			 <div class="pubd">This paper combines three contributions to establish a new state-of-the-art in dynamic scene recognition. First, we present a novel ConvNet architecture based on temporal residual units that is fully convolutional in spacetime. Our model augments spatial ResNets with convolutions across time to hierarchically add temporal residuals as the depth of the network increases. Second, existing approaches to video-based recognition are categorized and a baseline of seven previously top performing algorithms is selected for comparative evaluation on dynamic scenes. Third, we introduce a new and challenging video database of dynamic scenes that more than doubles the size of those previously available.This dataset is explicitly split into two subsets of equal size that contain videos with and without camera motion to allow for systematic study of how this variable interacts with the defining dynamics of the scene per se. Our evaluations verify the particular strengths and weaknesses of the baseline algorithms with respect to various scene classes and camera motion parameters. Finally, our temporal ResNet boosts recognition performance and establishes a new state-of-the-art on dynamic scene recognition, as well as on the complementary task of action recognition.
+			</div>
+            <div class="publ">
+              <ul>
+				<li><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Feichtenhofer_Temporal_Residual_Networks_CVPR_2017_paper.pdf">paper</a></li>
+				<li><a href="http://openaccess.thecvf.com/content_cvpr_2017/supplemental/Feichtenhofer_Temporal_Residual_Networks_2017_CVPR_supplemental.pdf">supplement</a></li>
+                <li><a href="https://github.com/feichtenhofer/temporal-resnet">code</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+   	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="pubs/nips16_teaser.jpg"><br><br>
+			<img src="pubs/nips16_temporal_resnet.png">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Spatiotemporal Residual Networks for Video Action Recognition</div>
+			<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Richard P. Wildes</div>
+            <div class="pubv">Advances in Neural Information Processing Systems (NIPS) 2016 </div>
+            <div class="pubd">Two-stream Convolutional Networks (ConvNets) have shown strong performance for human action recognition in videos. Recently, Residual Networks (ResNets) have arisen as a new technique to train extremely deep architectures. In this paper, we introduce spatiotemporal ResNets as a combination of these two approaches. Our novel architecture generalizes ResNets for the spatiotemporal domain by introducing residual connections in two ways. First, we inject residual connections between the appearance and motion pathways of a two-stream architecture to allow spatiotemporal interaction between the two streams. Second, we transform pretrained image ConvNets into spatiotemporal networks by equipping these with learnable convolutional filters that are initialized as temporal residual connections and operate on adjacent feature maps in time.  This approach slowly increases the spatiotemporal receptive field as the depth of the model increases and naturally integrates image ConvNet design principles. The whole model is trained end-to-end to allow hierarchical learning of complex spatiotemporal features. We evaluate our novel spatiotemporal ResNet using two widely used  action recognition benchmarks where it exceeds the previous state-of-the-art.
+			</div>
+
+            <div class="publ">
+              <ul>
+				<li><a href="pubs/STResNet_NIPS2016.pdf">paper</a></li>
+                <li><a href="https://github.com/feichtenhofer/st-resnet">code</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+   	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="pubs/cvpr16_teaser.jpg"><br><br>
+			<img src="pubs/cvpr16_architecture.jpg">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Convolutional Two-Stream Network Fusion for Video Action Recognition</div>
+			<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Andrew Zisserman</div>
+            <div class="pubv">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2016 </div>
+            <div class="pubd">Recent applications of Convolutional Neural Networks (ConvNets) for human action recognition in videos have proposed different solutions for incorporating the appearance and motion information. We study a number of ways of fusing ConvNet towers both spatially and temporally in order to best take advantage of this spatio-temporal information. We make the following findings: (i) that rather than fusing at the softmax layer, a spatial and temporal network can be fused at a convolution layer without loss of performance, but with a substantial saving in parameters; (ii) that it is better to fuse such networks spatially at the last convolutional layer than earlier, and that additionally fusing at the class prediction layer can boost accuracy; finally (iii) that pooling of abstract convolutional features over spatiotemporal neighbourhoods further boosts performance. Based on these studies we propose a new ConvNet architecture for spatiotemporal fusion of video snippets, and evaluate its performance on standard benchmarks where this architecture achieves state-of-the-art results.
+			</div>
+
+            <div class="publ">
+              <ul>
+                <li><a href="pubs/Feichtenhofer_Two_Stream_Fusion_2016_CVPR.pdf">paper</a></li>
+                <li><a href="https://github.com/feichtenhofer/twostreamfusion">code</a></li>
+				<li><a href="http://www.robots.ox.ac.uk/~vgg/software/two_stream_action/">website</a></li>
+				<li><a href="pubs/Feichtenhofer_Two_Stream_Fusion_2016_CVPR_Poster.pdf">poster</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+ 	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="pubs/DPCF_intro_square.jpg">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Dynamic Scene Recognition with Complementary Spatiotemporal Features</div>
+			<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Richard P. Wildes</div>
+            <div class="pubv">IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI) 2016 </div>
+
+            <div class="pubd">This paper presents Dynamically Pooled Complementary Features, a unified approach to dynamic scene recognition that analyzes a short video clip in terms of its spatial, temporal and color properties.  The complementarity of these properties is preserved through all main steps of processing, including primitive feature extraction, coding and pooling. In the feature extraction step, spatial orientations capture static appearance, spatiotemporal oriented energies capture image dynamics and color statistics capture chromatic information. Subsequently, primitive features are encoded into a mid-level representation that has been learned for the task of dynamic scene recognition. Finally, a novel dynamic spacetime pyramid is introduced. This  dynamic pooling approach can handle both global as well as local motion by adapting to the temporal structure, as guided by pooling energies. The resulting system provides online recognition of dynamic scenes that is thoroughly evaluated on the two current benchmark datasets and yields best results to date on both datasets. In-depth analysis reveals  the benefits of explicitly modeling feature complementarity in combination with the dynamic spacetime pyramid, indicating that this unified approach should be well-suited to many areas of video analysis.
+			</div>
+            <div class="publ">
+              <ul>
+                <li><a href="pubs/FeichtenhoferPinzWildesPAMI2016.pdf">paper</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+    <div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+		  <table width="100%">
+			  <tr>
+				<td align="center" valign="bottom">	<video autoplay loop> <source src="pubs/Davis_Love_III__Beautiful_swing!_golf_f_cm_np1_ri_med_0.mp4" type="video/mp4"> </video></td>
+			  </tr>
+			  <tr>
+				<td align="center" valign="bottom">   <video autoplay loop> <source src="pubs/Davis_Love_III__Beautiful_swing!_golf_f_cm_np1_ri_med_sal.mp4" type="video/mp4"> </video></td>
+			  </tr>
+		  </table>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Dynamically Encoded Actions based on Spacetime Saliency</div>
+            <div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Richard P. Wildes</div>
+            <div class="pubv">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2015 </div>
+
+            <div class="pubd">Human actions typically occur over a well localized extent in both space and time. Similarly, as typically captured in video, human actions have small spatiotemporal support in image space. This paper capitalizes on these observations by weighting feature pooling for action recognition over those areas within a video where actions are most likely to occur. To enable this operation, we define a novel measure of spacetime saliency. The measure relies on two observations regarding foreground motion of human actors: They typically exhibit motion that contrasts with that of their surrounding region and they are spatially compact. By using the resulting definition of saliency during feature pooling we show that action recognition performance achieves state-of-the-art levels on three widely considered action recognition datasets. Our saliency weighted pooling can be applied to essentially any locally defined features and encodings thereof. Additionally, we demonstrate that inclusion of locally aggregated spatiotemporal energy features, which efficiently result as a by-product of the saliency computation, further boosts performance over reliance on standard action recognition features alone.</div>
+             <div class="publ">
+              <ul>
+                <li><a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Feichtenhofer_Dynamically_Encoded_Actions_2015_CVPR_paper.pdf">paper</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+			  <table width="100%">
+				  <tr>
+					<td align="center" valign="bottom">	<video autoplay loop width="90%"> <source src="pubs/windmill_energies.mp4" type="video/mp4">  </video>  </td>
+				  </tr>
+			  </table>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Bags of Spacetime Energies for Dynamic Scene Recognition</div>
+
+			<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Richard P. Wildes</div>
+            <div class="pubv">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2014 </div>
+
+            <div class="pubd">This paper presents a unified bag of visual word (BoW) framework for dynamic scene recognition. The approach builds on primitive features that uniformly capture spatial and temporal orientation structure of the imagery (e.g., video), as extracted via application of a bank of spatiotemporally oriented filters. Various feature encoding techniques are investigated to abstract the primitives to an intermediate representation that is best suited to dynamic scene representation. Further, a novel approach to adaptive pooling of the encoded features is presented that captures spatial layout of the scene even while being robust to situations where camera motion and scene dynamics are confounded. The resulting overall approach has been evaluated on two standard, publically available dynamic scene datasets. The results show that in comparison to a representative set of alternatives, the proposed approach outperforms the previous state-of-the-art in classification accuracy by 10%.</div>
+
+            <div class="publ">
+              <ul>
+                <li><a href="pubs/Feichtenhofer_Bags_of_Spacetime_2014_CVPR_paper.pdf">paper</a></li>
+			<li><a href="#" onClick="BoSESpotlight=window.open('pubs/BoSE_spotlight.mp4','BoSESpotlight','toolbar=no, location=no, directories=no,status=no, menubar=no,scrollbars=no, resizable=true'); return false;">spotlight video</a></li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="pubs/rfid_vision_block_diagram.svg"><br><br>
+			<img src="pubs/rfid_SP-ST.png">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Fusing RFID and Computer Vision for Probabilistic Tag Localization</div>
+			<div class="puba">Michael Goller, <b>Christoph Feichtenhofer</b>, Axel Pinz</div>
+            <div class="pubv">IEEE International Conference on RFID (IEEE RFID) 2014 </div>
+
+            <div class="pubd">The combination of RFID and computer vision
+						systems is an effective approach to mitigate the limited tag
+						localization capabilities of current RFID deployments. In this
+						paper, we present a hybrid RFID and computer vision system
+						for localization and tracking of RFID tags. The proposed system
+						combines the information from the two complementary sensor
+						modalities in a probabilistic manner and provides a high degree
+						of ﬂexibility. In addition, we introduce a robust data association
+						method which is crucial for the application in practical scenarios.
+						To demonstrate the performance of the proposed system, we
+						conduct a series of experiments in an article surveillance setup.
+						This is a frequent application for RFID systems in retail where
+						previous approaches solely based on RFID localization have
+						difﬁculties due to false alarms triggered by stationary tags. Our
+						evaluation shows that the fusion of RFID and computer vision
+						provides robustness to false positive observations and allows for
+						a reliable system operation.</div>
+			<div class="publ">
+              <ul>
+                <li><a href="pubs/Goller_fusing_RFID_with_Vision_2014.pdf">paper</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+		<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="pubs/strf.PNG">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Spacetime Forests with Complementary
+									Features for Dynamic Scene Recognition</div>
+            <div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz, Richard P. Wildes</div>
+            <div class="pubv">British Machine Vision Conference (BMVC) 2013 (oral) </div>
+            <div class="pubd">This paper presents spacetime forests defined over complementary spatial and temporal
+								features for recognition of naturally occurring dynamic scenes. The approach
+								improves on the previous state-of-the-art in both classification and execution rates. A
+								particular improvement is with increased robustness to camera motion, where previous
+								approaches have experienced difficulty. There are three key novelties in the approach.
+								First, a novel spacetime descriptor is employed that exploits the complementary nature
+								of spatial and temporal information, as inspired by previous research on the role of orientation
+								features in scene classification. Second, a forest-based classifier is used to learn
+								a multi-class representation of the feature distributions. Third, the video is processed in
+								temporal slices with scale matched preferentially to scene dynamics over camera motion.
+								Slicing allows for temporal alignment to be handled as latent information in the classifier
+								and for efficient, incremental processing. The integrated approach is evaluated empirically
+								on two publically available datasets to document its outstanding performance.
+			</div>
+
+            <div class="publ">
+              <ul>
+                <li><a href="pubs/spacetime_forests_BMVC13.pdf">paper</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+  <div class="pubwrap">
+  <div class="row">
+	<div class="col-md-6">
+	  <div class="pubimg">
+		<img src="pubs/stm_hom.jpg">
+	  </div>
+	</div>
+	<div class="col-md-6">
+	  <div class="pub">
+		<div class="pubt">Spatio-Temporal Good Features to Track</div>
+		<div class="puba"><b>Christoph Feichtenhofer</b>, Axel Pinz</div>
+		<div class="pubv">Workshop on Computer Vision for Autonomous Driving, IEEE International Conference on Computer Vision (ICCV) 2013</div>
+		<div class="pubd">This paper presents two fundamental contributions that
+							can be very useful for any autonomous system that requires
+							point correspondences for visual odometry. First,
+							the Spatio-Temporal Monitor (STM) is an efficient method
+							to identify good features to track by monitoring their spatiotemporal
+							(x-y-t) appearance without any assumptions about
+							motion or geometry. The STM may be used with any spatial
+							(x-y) descriptor, but it performs best when combined with
+							our second contribution, the Histogram of Oriented Magnitudes
+							(HOM) descriptor, which is based on spatially oriented
+							multiscale filter magnitudes. To fulfil the real-time requirements
+							of autonomous applications, the same descriptor
+							can be used for both, track generation and monitoring,
+							to identify low-quality feature tracks at virtually no additional
+							computational cost. Our extensive experimental validation
+							on a challenging public dataset demonstrates the
+							excellent performance of STM and HOM, where we significantly
+							outperform the well known “Good Features to
+							Track” method and show that our proposed feature quality
+							measure highly correlates with the accuracy in structure
+							and motion estimation.
+		</div>
+
+		<div class="publ">
+		  <ul>
+			<li><a href="pubs/Feichtenhofer_Bags_of_Spacetime_2014_CVPR_paper.pdf">paper</a></li>
+		  </ul>
+
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+	<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+			<img src="pubs/sharpness/monarchblocks10pct.png">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">A Perceptual Image Sharpness Metric Based on
+								Local Edge Gradient Analysis</div>
+            <div class="puba"><b>Christoph Feichtenhofer</b>, Hannes Fassold, Peter Schallauer</div>
+            <div class="pubv">IEEE Signal Processing Letters 2013 </div>
+
+            <div class="pubd">In this letter, a no-reference perceptual sharpness
+						metric based on a statistical analysis of local edge gradients is
+						presented. The method takes properties of the human visual
+						system into account. Based on perceptual properties, a relationship
+						between the extracted statistical features and the metric
+						score is established to form a Perceptual Sharpness Index (PSI). A
+						comparison with state-of-the-art metrics shows that the proposed
+						method correlates highly with human perception and exhibits low
+						computational complexity. In contrast to existing metrics, the PSI
+						performs well for a wide range of blurriness and shows a high
+						degree of invariance for different image contents.</div>
+
+            <div class="publ">
+              <ul>
+                <li><a href="pubs/Feichtenhofer_Image_Sharpness_Metric_IEEE_SPL_2013.pdf">paper</a></li>
+                <li><a href="https://github.com/feichtenhofer/PSI">code</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<hr class="soft">
+
+<div class="container">
+  <h2>Teaching</h2>
+
+  <div class="pubwrap">
+    <div class="pubt">Image and Video Understanding (2014-2017, together with Prof. Axel Pinz)</div>
+      <img src="./pubs/teaching/dynamic_scene_understanding.png" >
+    </a>
+	<h4>My Lectures cover</h4>
+    <div class="pubd"><a href="pubs/teaching/IVU_Convolutional_Filtering_and_Thinking_in_Frequency.pdf">Convolutional Filtering and Thinking in Frequency (2014)</a> </div>
+    <div class="pubd"><a href="pubs/teaching/IVU_Convolutional_Networks_and_Video_Representations.pdf">Convolutional Networks and Video Representations (2014)</a> </div>
+  </div>
+
+  <div class="pubwrap">
+    <div class="pubt">	Image Based Measurement, Laboratory (2016-2017)</div>
+  </div>
+  <div class="pubwrap">
+    <div class="pubt">	Optical Measurement Principles, Laboratory (2016-2017)</div>
+  </div>
+  <div class="pubwrap">
+    <div class="pubt">	Optical Measurement Principles (2017, together with Prof. Axel Pinz)</div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h2>Student Supervision</h2>
+
+	<div class="pubd">
+		<p>Moritz Kampelmuehler, 2017 (MSc level):		<b>	Camera-based Vehicle Velocity Estimation </b>  </p>
+		<p>Horst Fuchs, 2017 (MSc level):				<b>Visualizing and Understanding Deep Driving Models </b>  </p>
+		<p>Roland Mulczet, 2017 (BSc level):			<b>Measuring the Invisible with Laser Speckles </b>  </p>
+		<p>Oliver Papst, 2017 (BSc level):				<b>3D Object Detection for Road Scene Understanding </b>  </p>
+		<p>Gerhard Neuhold, 2015 (MSc; now at <a href="http://research.mapillary.com/">Mapillary</a>):	<b>Pedestrian Detection with Convolutional Neural Networks </b>  </p>
+
+	</div>
+</div>
+
+
+
+</body></html>
